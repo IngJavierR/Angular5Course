@@ -2,7 +2,7 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {routing, RootComponent} from './routes';
 import {NguiMapModule} from '@ngui/map';
-import {HttpModule} from '@angular/http';
+import {HttpClientModule} from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatToolbarModule,
         MatSidenavModule,
@@ -29,7 +29,7 @@ export const MATERIAL_COMPONENTS = [
 @NgModule({
   imports: [
     BrowserModule,
-    HttpModule,
+    HttpClientModule,
     routing,
     BrowserAnimationsModule,
     MATERIAL_COMPONENTS

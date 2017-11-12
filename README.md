@@ -1,7 +1,11 @@
 ## Synopsis
 
 Este proyecto basado en Fountain, es una base para iniciar un desarrollo productivo en
-[Angular 4+](https://angular.io/) 
+[Angular 5+](https://angular.io/) 
+
+## Angular Material
+
+Se integra [Angular Material 5](https://material.angular.io/) a la solución para el uso de todos los componentes definidos en la especificacion.
 
 ## Motivation
 

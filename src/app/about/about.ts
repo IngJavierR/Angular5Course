@@ -18,14 +18,12 @@ export class AboutComponent implements OnInit {
     consulta(){
         this._data.setIsLoadingEvent(true);
         this._consumeService
-            .getCities()
+            .getJoke()
             .subscribe((response)=>{
-                console.log(response);
                 this.joke = response.value.joke;
                 this._data.setIsLoadingEvent(false);
             },
             (err)=>{
-                console.error(err);
                 this._data.setIsLoadingEvent(false);
             })
     }

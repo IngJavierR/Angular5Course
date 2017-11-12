@@ -13,6 +13,9 @@
       "es6-shim"
     ]
   },
+  "angularCompilerOptions": {
+    "preserveWhitespaces": false
+  },
   "compileOnSave": false,
   "filesGlob": [
     "src/**/*.ts",
